@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VoxMind AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <div class="header">
+        <h1>🤖 VoxMind AI</h1>
+        <p>Powered by AI + Murf Voice</p>
+    </div>
+    <p class="highlight">🚀 Voice-first AI Assistant powered by Murf AI</p>
+
+    <div class="controls">
+        <select id="mode">
+            <option value="friendly">😊 Friendly</option>
+            <option value="professional">💼 Professional</option>
+            <option value="funny">😂 Funny</option>
+        </select>
+
+        <select id="language">
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Telugu">Telugu</option>
+        </select>
+
+        <button onclick="clearChat()">🧹</button>
+    </div>
+
+    <div id="chat-box" class="chat-box"></div>
+
+    <div class="input-area">
+        <input type="text" id="user-input" placeholder="Ask anything...">
+        <button onclick="sendMessage()">➤</button>
+        <button onclick="startVoice()">🎤</button>
+    </div>
+
+    <audio id="audioPlayer" controls></audio>
+
+</div>
+<div id="wave" class="wave hidden">
+  <span></span><span></span><span></span><span></span>
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
