@@ -46,13 +46,12 @@ Unlike traditional bots, it does not rely on predefined responses but generates 
 This project focuses on **voice-first interaction**, combining AI intelligence with studio-quality speech synthesis to enhance user experience.
 
 ---
+Link: http://127.0.0.1:5000
 
 ## ▶️ Run Locally
 
 ```bash
 pip install -r requirements.txt
 python app.py
-
-Link: http://127.0.0.1:5000
 
 Github: https://github.com/kotojusaichandana/VoxMind_MurfAI
